@@ -1,0 +1,24 @@
+{
+  "metadataVersion": 1,
+  "name": "mdt-player-economy-system",
+  "displayName": "MDT Player Economy System",
+  "displayNameZh": "MDT 玩家经济系统",
+  "author": "monthzifang",
+  "description": "Calculates round rewards for bound players from playtime and build count, then writes exp and currencies back to list data.",
+  "descriptionZh": "按在线时长和建造数量结算玩家每局收益，只对已绑定玩家生效，按可配置概率计算经验、普通货币和稀有货币，并把结果写回列表数据系统。",
+  "version": "v1",
+  "requiredMarketVersion": "v1",
+  "channel": "native",
+  "targets": [
+    "original"
+  ],
+  "downloadUrls": [
+    "https://raw.githubusercontent.com/MonthZifang/mdt-Player-Economy-System/main/dist/mdt-player-economy-system.jar",
+    "https://raw.githubusercontent.com/MonthZifang/mdt-Player-Economy-System/main/plugin.json"
+  ],
+  "dependencies": [
+    "mdt-list-data-system"
+  ],
+  "repositoryUrl": "https://github.com/MonthZifang/mdt-Player-Economy-System",
+  "entry": "com.mdt.economy.PlayerEconomySystemPlugin"
+}

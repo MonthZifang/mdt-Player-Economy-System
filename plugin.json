@@ -1,0 +1,7 @@
+{
+  "name": "mdt-player-economy-system",
+  "author": "monthzifang",
+  "main": "com.mdt.economy.PlayerEconomySystemPlugin",
+  "description": "按在线时长和建造数量结算玩家每局收益，只对已绑定玩家生效，按可配置概率计算经验、普通货币和稀有货币，并把结果写回列表数据系统。",
+  "version": "v1"
+}
